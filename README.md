@@ -33,7 +33,7 @@ This method lets us iterate over every element of the array directly, without wr
 ``` javascript
 var evens = [0, 2, 4, 6, 8, 10]
 
-evens.forEach(even => {
+evens.forEach(function(evens){
   console.log(`${even} is not odd!`)
 })
 ```
